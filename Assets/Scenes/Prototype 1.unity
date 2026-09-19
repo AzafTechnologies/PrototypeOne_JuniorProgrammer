@@ -1047,7 +1047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VehicleMovement
   speed: 10
-  turnSpeed: 0
+  turnSpeed: 10
   moveAction:
     m_Name: Move
     m_Type: 0

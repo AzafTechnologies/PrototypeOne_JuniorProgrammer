@@ -22,9 +22,9 @@ public class VehicleMovement : MonoBehaviour
     {
         moveInput = moveAction.ReadValue<Vector2>();
 
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * speed * Time.deltaTime * moveInput.y);
 
-        transform.Translate(Vector3.right * turnSpeed * Time.deltaTime);
+        transform.Translate(Vector3.right * turnSpeed * Time.deltaTime * moveInput.x);
     }
 }
 
