@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 025cbf32ad2aed7429a04d58b05f87c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::enemyVehicleMovement
-  speed: 5
+  speed: 10
 --- !u!54 &185409326
 Rigidbody:
   m_ObjectHideFlags: 0
