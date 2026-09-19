@@ -24,7 +24,7 @@ public class VehicleMovement : MonoBehaviour
 
         transform.Translate(Vector3.forward * speed * Time.deltaTime * moveInput.y);
 
-        transform.Translate(Vector3.right * turnSpeed * Time.deltaTime * moveInput.x);
+        transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime * moveInput.x);
     }
 }
 

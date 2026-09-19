@@ -1046,8 +1046,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1e5c60ffb1bb144a1af4bb11d6f909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VehicleMovement
-  speed: 10
-  turnSpeed: 10
+  speed: 25
+  turnSpeed: 75
   moveAction:
     m_Name: Move
     m_Type: 0
